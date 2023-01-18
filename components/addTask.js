@@ -30,7 +30,7 @@ export const addTask = (evento) => {
   
  
   
-  const createTask = ({value, dateFormat}) => {
+  export const createTask = ({value, dateFormat}) => {
     
     const list = document.querySelector('[data-list]');
     const task = document.createElement('li');
@@ -52,7 +52,6 @@ export const addTask = (evento) => {
     task.appendChild(taskContent);
     task.appendChild(dateElement);
     task.appendChild(deleteIcon());
-    list.appendChild(task);
   
     return task;
   };
