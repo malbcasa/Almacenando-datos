@@ -1,6 +1,6 @@
 import checkComplete from './checkComplete.js';
 import deleteIcon from './deleteIcon.js';
-import { readTasks } from './readTasks.js';
+import { displayTasks } from './readTasks.js';
 import { uniqueDates } from './services/date.js';
 
 export const addTask = (evento) => {
